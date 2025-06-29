@@ -176,7 +176,7 @@ function MangAdmin:CreateGOSection()
     name = "ma_gobguidlabel",
     group = "go",
     parent = ma_midframe,
-    text = "GOb GUID",
+    text = "物体 GUID",
     setpoint = {
       pos = "TOPLEFT",
       offX = 12,
@@ -188,7 +188,7 @@ function MangAdmin:CreateGOSection()
     name = "ma_gobentrylabel",
     group = "go",
     parent = ma_midframe,
-    text = "GOb EntryID",
+    text = "物体 EntryID",
     setpoint = {
       pos = "TOPLEFT",
       offX = 93,
@@ -499,7 +499,7 @@ function MangAdmin:CreateGOSection()
     name = "ma_gobdisplayidlabel",
     group = "go",
     parent = ma_midframe,
-    text = "DisplayID:",
+    text = "模型ID:",
     setpoint = {
       pos = "TOPLEFT",
       offX = 42,
@@ -524,7 +524,7 @@ function MangAdmin:CreateGOSection()
       offX = 640,
       offY = -12
     },
-    text = "FWD"
+    text = "前"
   })
 
   FrameLib:BuildButton({
@@ -544,7 +544,7 @@ function MangAdmin:CreateGOSection()
       offX = 584,
       offY = -38
     },
-    text = "LEFT"
+    text = "左"
   })
 
   FrameLib:BuildButton({
@@ -564,7 +564,7 @@ function MangAdmin:CreateGOSection()
       offX = 696,
       offY = -38
     },
-    text = "RIGHT"
+    text = "右"
   })
 
   FrameLib:BuildButton({
@@ -584,7 +584,7 @@ function MangAdmin:CreateGOSection()
       offX = 640,
       offY = -64
     },
-    text = "BACK"
+    text = "后"
   })
 
   FrameLib:BuildButton({
@@ -604,7 +604,7 @@ function MangAdmin:CreateGOSection()
       offX = 640,
       offY = -38
     },
-    text = "HERE"
+    text = "这里"
   })
 
   FrameLib:BuildButton({
@@ -624,7 +624,7 @@ function MangAdmin:CreateGOSection()
       offX = 706,
       offY = -12
     },
-    text = "UP"
+    text = "上"
   })
 
   FrameLib:BuildButton({
@@ -644,7 +644,7 @@ function MangAdmin:CreateGOSection()
       offX = 706,
       offY = -64
     },
-    text = "DOWN"
+    text = "下"
   })
 
   FrameLib:BuildButton({
@@ -657,7 +657,7 @@ function MangAdmin:CreateGOSection()
       offX = 615,
       offY = -80
     },
-    text = "Add On Move",
+    text = "移动时添加",
     inherits = "OptionsCheckButtonTemplate"
   })
 
@@ -671,7 +671,7 @@ function MangAdmin:CreateGOSection()
       offX = 615,
       offY = -105
     },
-    text = "Move on Move",
+    text = "移动中移动",
     inherits = "OptionsCheckButtonTemplate"
   })
 
@@ -736,7 +736,7 @@ function MangAdmin:CreateGOSection()
     name = "ma_gobmovedistanceslabel",
     group = "go",
     parent = ma_midframe,
-    text = "Move Distances",
+    text = "移动距离",
     setpoint = {
       pos = "TOPLEFT",
       offX = 602,
@@ -748,7 +748,7 @@ function MangAdmin:CreateGOSection()
     name = "ma_gobmovedistforwardbacklabel",
     group = "go",
     parent = ma_midframe,
-    text = "Fwd/Back:",
+    text = "前/后:",
     setpoint = {
       pos = "TOPLEFT",
       offX = 605,
@@ -760,7 +760,7 @@ function MangAdmin:CreateGOSection()
     name = "ma_gobmovedistleftrightlabel",
     group = "go",
     parent = ma_midframe,
-    text = "Left/Right:",
+    text = "左/右:",
     setpoint = {
       pos = "TOPLEFT",
       offX = 605,
@@ -772,7 +772,7 @@ function MangAdmin:CreateGOSection()
     name = "ma_gobmovedistupdownlabel",
     group = "go",
     parent = ma_midframe,
-    text = "Up/Down:",
+    text = "上/下:",
     setpoint = {
       pos = "TOPLEFT",
       offX = 605,
@@ -797,7 +797,7 @@ function MangAdmin:CreateGOSection()
       offX = 303,
       offY = -12
     },
-    text = "Show"
+    text = "显示"
   })
 
  --[[ FrameLib:BuildFrame({

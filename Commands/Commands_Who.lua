@@ -29,7 +29,7 @@ function WhoUpdate()
         lineplusoffset = line + FauxScrollFrame_GetOffset(ma_whoscrollframe)
         if lineplusoffset <= whoCount then
           local object = MangAdmin.db.account.buffer.who[lineplusoffset]
-          if object then
+        if object and not IsBot(object) then
             getglobal("ma_whoscrollframe"..line):SetText("Acct: |cffffffff"..object["tAcc"].."|r Char: |cffffffff"..object["tChar"].."|r GMLvl: |cffffffff"..object["tGMLevel"].."|r Exp: |cffffffff"..object["tExp"].."|r")
             ma_deletewhobutton:Enable()
             ma_answerwhobutton:Enable()
@@ -54,6 +54,14 @@ function WhoUpdate()
 --MangAdmin.db.account.buffer.tickets = {}
 --MangAdmin.db.char.requests.ticket = false
 end
+
+function IsBot(object)
+  if not object then return true end
+  local acc = tostring(object["tAcc"] or "")
+  if string.match(acc, "^RNDBOT%d+$") then return true end
+  return false
+end
+
 
 function WhoDetail(tAcc, tChar, tMap, tZone)
 --     MangAdmin.db.char.requests.ticket = false

@@ -18,7 +18,7 @@
 function OBJGo()
     local player = UnitName("target") or UnitName("player")
     local obj =	ma_Obj_guidbutton:GetText()
-    MangAdmin:ChatMsg(".go object "..obj)
+    MangAdmin:ChatMsg(".go gameobject "..obj)
     MangAdmin:LogAction("Go Object for player "..player..".")
 end
 

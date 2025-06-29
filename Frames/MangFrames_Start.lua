@@ -286,7 +286,7 @@ function MangAdmin:CreateStartFrames()
       offX = -10,
       offY = -10
     },
-    text = "Refresh"
+    text = "刷新"
   })
 
   FrameLib:BuildFrame({

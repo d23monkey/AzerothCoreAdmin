@@ -48,7 +48,7 @@ function MangAdmin:CreateTicketSection()
         offX = 10,
         offY = -5
     },
-    text = "1.RESET"
+    text = "1.重置"
 })
 
   FrameLib:BuildButton({
@@ -68,7 +68,7 @@ function MangAdmin:CreateTicketSection()
         offX = 80,
         offY = 0
     },
-    text = "2.Load All or"
+    text = "2.全部加载或"
 })
 
   FrameLib:BuildButton({
@@ -88,7 +88,7 @@ function MangAdmin:CreateTicketSection()
         offX = 80,
         offY = -15
     },
-    text = "2.Load Online"
+    text = "2.联机加载"
 })
 
   FrameLib:BuildButton({
@@ -108,7 +108,7 @@ function MangAdmin:CreateTicketSection()
         offX = 200,
         offY = -5
     },
-    text = "3.SHOW"
+    text = "3.显示"
 })
 
   FrameLib:BuildButton({
@@ -128,7 +128,7 @@ function MangAdmin:CreateTicketSection()
       offX = 240,
       offY = -226
     },
-    text = "Go Ticket"
+    text = "通行证"
   })
 
   FrameLib:BuildButton({
@@ -148,7 +148,7 @@ function MangAdmin:CreateTicketSection()
       offX = 325,
       offY = -226
     },
-    text = "Whisper" --Locale["ma_WhisperButton"]
+    text = "密语" --Locale["ma_WhisperButton"]
   })
 
   FrameLib:BuildButton({

@@ -1,8 +1,8 @@
 ## Interface: 30300
-## Title: AzerothCoreAdmin
+## Title: AZGM管理插件
 ## Author: Based on the work of TrinityAdmin Dev team and MangAdmin Dev Team
 ## Version: 0.1
-## Notes: This add-on works with AzerothCore-based private servers
+## Notes: 此插件适用于基于AzerothCore的单机服务器
 ## URL: https://github.com/LightDestory/AzerothCoreAdmin
 ## Name: AzerothCoreAdmin
 ## License: GPLv3
@@ -29,6 +29,7 @@ Libraries\FrameLib-1.0\FrameLib-1.0.lua
 Libraries\FuBarPlugin-2.0\FuBarPlugin-2.0.lua
 Libraries\LibGraph-2.0\LibGraph-2.0.lua
 Locales\enUS.lua
+Locales\zhCN.lua
 Locales\strings.lua
 models.lua
 Commands\declarations\command_keys.lua

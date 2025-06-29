@@ -35,7 +35,7 @@ function MangAdmin:CreateTeleSection()
     name = "ma_teleconttext",
     group = "tele",
     parent = ma_midframe,
-    text = "Continent Selection",
+    text = "大陆选择",
     setpoint = {
       pos = "TOPLEFT",
       offX = 5,
@@ -78,7 +78,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry1_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Eastern Kingdoms (N)",
+    text = "东部王国",
     size = {
       width = 181,
       height = 16
@@ -100,7 +100,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry2_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Eastern Kingdoms (S)",
+    text = "卡利姆多",
     size = {
       width = 181,
       height = 16
@@ -122,7 +122,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry3_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Kalimdor",
+    text = "外域",
     size = {
       width = 181,
       height = 16
@@ -144,7 +144,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry4_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Outland",
+    text = "诺森德",
     size = {
       width = 181,
       height = 16
@@ -166,7 +166,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry5_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Northrend-Alliance",
+    text = "各大主城",
     size = {
       width = 181,
       height = 16
@@ -188,7 +188,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry6_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Northrend-Horde",
+    text = "经典旧世副本",
     size = {
       width = 181,
       height = 16
@@ -210,7 +210,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry7_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Battlegrounds/Arenas",
+    text = "外域副本",
     size = {
       width = 181,
       height = 16
@@ -232,7 +232,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry8_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Instances: Eastern",
+    text = "诺森德副本",
     size = {
       width = 181,
       height = 16
@@ -254,7 +254,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry9_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Instances: Kalimdor",
+    text = "诺森德团队副本",
     size = {
       width = 181,
       height = 16
@@ -276,7 +276,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry10_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Instances: Outland",
+    text = "野外世界BOSS",
     size = {
       width = 181,
       height = 16
@@ -298,7 +298,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry11_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Instances: Northrend",
+    text = "风景欣赏",
     size = {
       width = 181,
       height = 16
@@ -320,7 +320,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry12_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Other",
+    text = "其他",
     size = {
       width = 181,
       height = 16
@@ -332,7 +332,7 @@ function MangAdmin:CreateTeleSection()
     name = "ma_telezonetext",
     group = "tele",
     parent = ma_midframe,
-    text = "Zone Selection",
+    text = "区域选择",
     setpoint = {
       pos = "TOPLEFT",
       offX = 220,

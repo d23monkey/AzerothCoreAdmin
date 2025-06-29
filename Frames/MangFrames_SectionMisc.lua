@@ -42,7 +42,7 @@ function MangAdmin:CreateMiscSection()
       offX = 6,
       offY = -4
     },
-    text = "Enable Transparency",
+    text = "启用透明度",
     inherits = "OptionsCheckButtonTemplate"
   })
 
@@ -56,7 +56,7 @@ function MangAdmin:CreateMiscSection()
       offX = 160,
       offY = -4
     },
-    text = "Enable Localized Search Strings",
+    text = "启用本地字符搜索",
     inherits = "OptionsCheckButtonTemplate"
   })
 
@@ -70,7 +70,7 @@ function MangAdmin:CreateMiscSection()
       offX = 160,
       offY = -34
     },
-    text = "Enable Minimenu/Toolbar",
+    text = "启用迷你菜单/工具栏",
     inherits = "OptionsCheckButtonTemplate"
   })
 
@@ -84,7 +84,7 @@ function MangAdmin:CreateMiscSection()
       offX = 160,
       offY = -64
     },
-    text = "Enable Tooltips",
+    text = "启用工具栏提示",
     inherits = "OptionsCheckButtonTemplate"
   })
 
@@ -98,19 +98,31 @@ function MangAdmin:CreateMiscSection()
       offX = 160,
       offY = -94
     },
-    text = "Show Chat Output",
+    text = "聊天输出显示",
     inherits = "OptionsCheckButtonTemplate"
   })
 
   FrameLib:BuildFontString({
+    name = "ma_delayparamlabel",
+    group = "misc",
+    parent = ma_midframe,
+    text = "更新延迟",
+    setpoint = {
+      pos = "TOPLEFT",
+      offX = 160,
+      offY = -124
+    }
+  })
+  
+  FrameLib:BuildFontString({
     name = "ma_delayparamlabel2",
     group = "misc",
     parent = ma_midframe,
-    text = "Specifies update frequency of Diff graph on Server tab.\n 4000 = ~1 minute, 20000 =~5 minutes",
+    text = "在“服务器”标签内曲线图的更新频率.\n|c777DDDFF4000 = ~1 分钟, 20000 =~5 分钟",
     setpoint = {
       pos = "TOPLEFT",
-      offX = 165,
-      offY = -155
+      offX = 160,
+      offY = -144
     }
   })
 
@@ -125,8 +137,8 @@ function MangAdmin:CreateMiscSection()
     },
     setpoint = {
       pos = "TOPLEFT",
-      offX = 195,
-      offY = -180
+      offX = 235,
+      offY = -124
     },
     inherits = "InputBoxTemplate"
   })
@@ -186,7 +198,7 @@ function MangAdmin:CreateMiscSection()
     name = "ma_bgcolorshowtext",
     group = "misc",
     parent = ma_midframe,
-    text = "Backgroundcolor",
+    text = "背景颜色",
     setpoint = {
       pos = "TOPLEFT",
       offX = 35,
@@ -217,7 +229,7 @@ function MangAdmin:CreateMiscSection()
     name = "ma_frmcolorshowtext",
     group = "misc",
     parent = ma_midframe,
-    text = "Framecolor",
+    text = "框架颜色",
     setpoint = {
       pos = "TOPLEFT",
       offX = 35,
@@ -248,7 +260,7 @@ function MangAdmin:CreateMiscSection()
     name = "ma_btncolorshowtext",
     group = "misc",
     parent = ma_midframe,
-    text = "Buttoncolor",
+    text = "按钮颜色",
     setpoint = {
       pos = "TOPLEFT",
       offX = 35,
@@ -279,7 +291,7 @@ function MangAdmin:CreateMiscSection()
     name = "ma_linkifiercolortext",
     group = "misc",
     parent = ma_midframe,
-    text = "MangLinkifier",
+    text = "多路颜色",
     setpoint = {
       pos = "TOPLEFT",
       offX = 35,
@@ -304,7 +316,7 @@ function MangAdmin:CreateMiscSection()
       offX = 10,
       offY = -225
     },
-    text = "Update Changes"
+    text = "应用更改"
   })
 
   FrameLib:BuildFrame({
@@ -340,6 +352,6 @@ function MangAdmin:CreateMiscSection()
       offX = 630,
       offY = -10
     },
-    text = "Apply Weather"
+    text = "变换天气"
   })
 end
